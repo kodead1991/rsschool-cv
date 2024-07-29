@@ -1,10 +1,41 @@
-# Мой Curriculum Vitae
+[rsschool-cv](https://github.com/kodead1991/rsschool-cv/)
+====
+# Alexey Devyatkin
 
-1. Алексей Девяткин
-2. telegram @kodead
-3. Моя цель - найти своё наилучшее применение. Мои сильные стороны: внимательность. 
-4. Владею языком описания аппаратуры VHDL
-5. Примеры кода: https://github.com/kodead1991/HDL_MARAFON_src.git
-6. Опыт работы: 5 лет разработки конфигураций для FPGA Altera/Xilinx на языке VHDL.
-7. Образование: высшее техническое (магистр-радиотехник)
-8. Английский язык: B1
+## Contacts
+- Location: Moscow, Russia
+- Telegram: [@kodead](https://t.me/kodead)
+- Email: alexey.devyatkin.msk@gmail.com
+- GitHub: [kodead1991](https://github.com/kodead1991/) 
+
+## About Me
+I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
+I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
+
+## Skills
+- HTML
+- CSS/SASS
+- JavaScript (Basic)
+- Git
+
+## Code Example
+```
+function sum(a, b) {
+    return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
+```
+
+## Experience
+- 5 years of developing configurations for Altera/Xilinx FPGAs in VHDL
+
+## Education
+- University: Moscow Power Engineering Institute (MPEI), radio engineering faculty
+- Courses:
+    - CS50 lectures
+    - HTML Academy
+
+## English
+B1 Intermediate
