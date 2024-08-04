@@ -82,13 +82,13 @@ img {
     height: 100%;
     width: 100%;
     text-align: center;
-    background-color: #708090;
+    background-color: #2D2E2E;
 }
 
 .main {
     height: 100%;
     width: 100%;
-    background-color: #515c67;
+    background-color: #2D2E2E;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -107,4 +107,9 @@ img {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+code pre {
+    font-size: 0.85rem;
+    font-family: 'Anonymous Pro', monospace;
 }
