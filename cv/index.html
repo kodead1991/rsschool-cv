@@ -9,24 +9,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <title>Devyatkin CV RSS</title>
-    <ul class="header__contacts">
-        <li class="header__contacts-item">
-          <h4>Location</h4>
-          <address>Minsk, Belarus</address>
-        </li>
-        <li class="header__contacts-item">
-          <h4>Phone number</h4>
-          <p>+375 29 134-40-41</p>
-        </li>
-        <li class="header__contacts-item">
-          <h4>Email</h4>
-          <p><a href="mailto:kryvetskiandrei@gmail.com">kryvetskiandrei@gmail.com</a></p>
-        </li>
-      </ul>
-
 </head>
 
 <body>
+
+    <aside class="aside"> <!-- Боковая панель (сайдбар) -->
+        <nav> <!-- Меню -->
+            <ul>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code example</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#english">English</a></li>
+            </ul>
+        </nav>
+    </aside>
 
     <header class="header">
         <div>
@@ -34,17 +32,34 @@
             <h1>Devyatkin Alexey</h1>
             <h3>Front-End Developer (Beginner)</h3>
         </div>
+
+        <div class="contacts">
+            <div class="contacts-container">
+                <h4>Location</h4>
+                <address>Russia, Moscow</address>
+            </div>
+
+            <div class="contacts-container">
+                <h4>Telegram</h4>
+                <p><a href="https://t.me/kodead">@kodead</a></p>
+            </div>
+
+            <div class="contacts-container">
+                <h4>Email</h4>
+                <p><a href="mailto:alexey.devyatkin.msk@gmail.com">alexey.devyatkin.msk@gmail.com</a></p>
+            </div>
+        </div>
     </header>
 
     <main class="main">
-        <div class="container about-me">
-            <h4>About me</h>
-                <p>
-                    I have good interpersonal skills, am an excellent team worker and very willing to learn and develop
-                    new skills. I am reliable and dependable.
-                </p>
+        <div id="about-me" class="container about-me">
+            <h4>About me</h4>
+            <p>
+                I have good interpersonal skills, am an excellent team worker and very willing to learn and develop
+                new skills. I am reliable and dependable.
+            </p>
         </div>
-        <div class="container skills">
+        <div id="skills" class="container skills">
             <h4>Skills</h4>
             <ul>
                 <li>HTML</li>
@@ -53,7 +68,7 @@
                 <li>Git</li>
             </ul>
         </div>
-        <div class="container code">
+        <div id="code" class="container code">
             <h4>Code example</h4>
             <code>
                 <!-- <pre> -->
@@ -64,16 +79,17 @@
                 <!-- </pre> -->
             </code>
         </div>
-        <div class="container expierence">
+        <div id="experience" class="container expierence">
             <h4>Expierence</h4>
             <ul>
                 <li>5 years of developing configurations for Altera/Xilinx FPGAs with VHDL</li>
             </ul>
         </div>
-        <div class="container education">
+        <div id="education" class="container education">
             <h4>Education</h4>
             <ul>
-                <li>University: <a href="https://mpei.ru/Pages/default.aspx">Moscow Power Engineering Institute (MPEI)</a></li>
+                <li>University: <a href="https://mpei.ru/Pages/default.aspx">Moscow Power Engineering Institute
+                        (MPEI)</a></li>
                 <li>
                     <ul>
                         <li><a href="https://code-basics.com/ru/languages/css">CSS (Basics)</a></li>
@@ -82,7 +98,7 @@
                 </li>
             </ul>
         </div>
-        <div class="container">
+        <div id="english" class="container">
             <h4>English</h4>
             <ul class="english">
                 <li>B1 Intermediate</li>
